@@ -1,0 +1,5 @@
+/vendor
+/.idea
+/program.php
+/solution
+/exercises/*/solution/vendor
