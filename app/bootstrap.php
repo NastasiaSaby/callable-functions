@@ -20,24 +20,36 @@ switch (true) {
 }
 
 use PhpSchool\PhpWorkshop\Application;
+use PhpSchool\CallableFunctions\Exercise\HelloWorld;
+use PhpSchool\CallableFunctions\Exercise\HelloSomeone;
+use PhpSchool\CallableFunctions\Exercise\PeaceWalk;
+use PhpSchool\CallableFunctions\Exercise\ArrayWeMap;
+use PhpSchool\CallableFunctions\Exercise\ArrayWeReduce;
+use PhpSchool\CallableFunctions\Exercise\ArrayWeFilter;
 
 $app = new Application(null, __DIR__ . '/config.php');
 
-//$app->addExercise(...);
-//$app->addExercise(...);
+$app->addExercise(HelloWorld::class);
+$app->addExercise(HelloSomeone::class);
+$app->addExercise(PeaceWalk::class);
+$app->addExercise(ArrayWeMap::class);
+$app->addExercise(ArrayWeReduce::class);
+$app->addExercise(ArrayWeFilter::class);
 
 $art = <<<ART
-        _ __ _
-       / |..| \
-       \/ || \/
-        |_''_|
 
-      PHP SCHOOL
-LEARNING FOR ELEPHPANTS
+            _\/__
+           | - - |
+           |__+__|
+          \_______/
+           |_| |_|
+
+         PHP SCHOOL
+CALLABLE FUNCTIONS AND ARRAY
 ART;
 
 $app->setLogo($art);
-$app->setFgColour('green');
+$app->setFgColour('blue');
 $app->setBgColour('black');
 
 return $app;
