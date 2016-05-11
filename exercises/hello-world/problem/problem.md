@@ -1,9 +1,4 @@
-To be brief, functional programming is about functions.
-With PHP, we can do functional programming for instance with callable functions and arrays.
-
-Let's go !
-
-Write a program that prints the text "Hello World" to the console with a callable function.
+*Write a program that prints the text "Hello World" to the console with a callable function.
 
 ----------------------------------------------------------------------
 ## HINTS
