@@ -1,22 +1,19 @@
-<h1 align="center">Workshop Starter Kit</h1>
-
-<p align="center">If you want to build your own workshop, this repository and it't tools will help you get going</p>
+<h1 align="center">Callable functions</h1>
 
 <p align="center">
-  <a href="https://phpschool-team.slack.com/messages">
-      <img src="https://phpschool.herokuapp.com/badge.svg">
-  </a>
+A PHP School workshop about callable functions with arrays.
 </p>
+
 ----
+<p align="center">
+<img width="500" alt="Learn You PHP Workshop" src="http://mes-experiences-geek.fr/wp-content/uploads/2016/05/Capture-du-2016-05-09-132004.png">
+</p>
 
-## Getting Started
+## Installation
 
-```shell
-composer create-project php-school/workshop-starter-kit your-workshop-name
-```
+1. Install [PHP](http://php.net/downloads.php)
+2. Install [Composer](https://getcomposer.org/download/)
+3. Run `composer global require php-school/callable-functions`
+4. Run `callablefunctions`
 
-That's it! You will be prompted for some information along the way, this will be used to setup the project details in `composer.json`, setup autoloading of your classes and a few other things. A command will be dispayed towards the end of the process which will immediately allow you to run your workshop!
-
-For detailed documentation on how to actually build execrises and extend the application, check the docs page on our site [www.phpschool.io/docs](https://www.phpschool.io/docs).
-
-Finally, drop in the [slack channel](https://phpschool-team.slack.com/messages) if you have further questions. Also send us a PR [here](https://github.com/php-school/phpschool.io) or just drop us a message if you want your workshop featured on www.phpschool.io! 
+**callablefunctions** will run through a series of PHP workshops. Starting at a basic "Hello World" and moving on to more advanced exercises about dealing with arrays and callable functions.
