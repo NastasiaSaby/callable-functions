@@ -1,11 +1,11 @@
 {
     "name": "php-school/callable-functions",
-    "description": "Learn callable functionxs with arrays",
+    "description": "Learn callable functions with arrays",
     "license": "MIT",
     "authors": [
         {
-            "name": "Aydin Hassan",
-            "email": "aydin@hotmail.co.uk"
+            "name": "Nastasia Saby",
+            "email": "nastasia.saby@gmail.com"
         }
     ],
     "require": {
