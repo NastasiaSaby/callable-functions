@@ -6,6 +6,8 @@ namespace PhpSchool\CallableFunctionsTest\Exercise;
 use PhpSchool\CallableFunctions\Exercise\ArrayWeFilter;
 use PhpSchool\PhpWorkshop\Exercise\ExerciseType;
 use PhpSchool\PhpWorkshop\Solution\SolutionInterface;
+use PhpSchool\PhpWorkshop\ExerciseDispatcher;
+use PhpSchool\PhpWorkshop\Check\FunctionRequirementsCheck;
 use PHPUnit_Framework_TestCase;
 
 /**
@@ -33,5 +35,18 @@ class ArrayWeFilterTest extends PHPUnit_Framework_TestCase
         $e = new ArrayWeFilter();
         $this->assertEquals(['array_filter'], $e->getRequiredFunctions());
         $this->assertEquals([], $e->getBannedFunctions());
+    }
+
+    public function testConfigure()
+    {
+        $dispatcher = $this->getMockBuilder(ExerciseDispatcher::class)
+            ->disableOriginalConstructor()
+            ->getMock();
+        $dispatcher
+            ->expects($this->once())
+            ->method('requireCheck')
+            ->with(FunctionRequirementsCheck::class);
+        $e = new ArrayWeFilter();
+        $e->configure($dispatcher);
     }
 }

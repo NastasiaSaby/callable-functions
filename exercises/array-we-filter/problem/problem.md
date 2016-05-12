@@ -1,4 +1,4 @@
-Write a program that sort only the even numbers from the arguments.
+Write a program that sorts only the even numbers from the arguments.
 You must write this program with the array_filter function.
 
 ----------------------------------------------------------------------
