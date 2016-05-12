@@ -32,5 +32,6 @@ class ArrayWeMapTest extends PHPUnit_Framework_TestCase
     {
         $e = new ArrayWeMap();
         $this->assertEquals(['array_map'], $e->getRequiredFunctions());
+        $this->assertEquals([], $e->getBannedFunctions());
     }
 }

@@ -32,5 +32,6 @@ class PeaceWalkTest extends PHPUnit_Framework_TestCase
     {
         $e = new PeaceWalk();
         $this->assertEquals(['array_walk'], $e->getRequiredFunctions());
+        $this->assertEquals([], $e->getBannedFunctions());
     }
 }

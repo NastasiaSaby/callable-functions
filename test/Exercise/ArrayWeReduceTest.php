@@ -32,5 +32,6 @@ class ArrayWeReduceTest extends PHPUnit_Framework_TestCase
     {
         $e = new ArrayWeReduce();
         $this->assertEquals(['array_reduce'], $e->getRequiredFunctions());
+        $this->assertEquals([], $e->getBannedFunctions());
     }
 }
