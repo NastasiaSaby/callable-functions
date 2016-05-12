@@ -32,5 +32,6 @@ class ArrayWeFilterTest extends PHPUnit_Framework_TestCase
     {
         $e = new ArrayWeFilter();
         $this->assertEquals(['array_filter'], $e->getRequiredFunctions());
+        $this->assertEquals([], $e->getBannedFunctions());
     }
 }
