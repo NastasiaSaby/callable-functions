@@ -4,28 +4,23 @@
 A PHP School workshop about callable functions with arrays.
 </p>
 
-----
 <p align="center">
-<img width="500" alt="Learn You PHP Workshop" src="http://mes-experiences-geek.fr/wp-content/uploads/2016/05/Capture-du-2016-05-09-132004.png">
+<a href="https://travis-ci.org/NastasiaSaby/callable-functions">
+    <img src="https://img.shields.io/travis/NastasiaSaby/callable-functions/master.svg?style=flat-square">
+</a>
+<a href="https://codecov.io/github/NastasiaSaby/callable-functions">
+    <img src="https://img.shields.io/codecov/c/github/NastasiaSaby/callable-functions.svg?style=flat-square">
+</a>
+<a href="https://scrutinizer-ci.com/g/NastasiaSaby/callable-functions/">
+    <img src="https://img.shields.io/scrutinizer/g/NastasiaSaby/callable-functions.svg?style=flat-square">
+</a>
 </p>
 
+----
 <p align="center">
-<a href="https://travis-ci.org/php-school/learn-you-php">
-    <img src="https://img.shields.io/travis/php-school/learn-you-php/master.svg?style=flat-square&label=Linux">
-</a>
-<a href="https://ci.appveyor.com/project/AydinHassan/learn-you-php">
-    <img src="https://img.shields.io/appveyor/ci/AydinHassan/learn-you-php/master.svg?style=flat-square&label=Windows">
-</a>
-<a href="https://codecov.io/github/php-school/learn-you-php">
-    <img src="https://img.shields.io/codecov/c/github/php-school/learn-you-php.svg?style=flat-square">
-</a>
-<a href="https://scrutinizer-ci.com/g/php-school/learn-you-php/">
-    <img src="https://img.shields.io/scrutinizer/g/php-school/learn-you-php.svg?style=flat-square">
-</a>
-<a href="https://phpschool-team.slack.com/messages">
-    <img src="https://phpschool.herokuapp.com/badge.svg">
-</a>
+<img width="500" alt="Learn You PHP Workshop" src="http://mes-experiences-geek.fr/wp-content/uploads/2016/05/learn.png">
 </p>
+
 
 ## Installation
 
