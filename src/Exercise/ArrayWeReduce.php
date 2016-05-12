@@ -15,7 +15,10 @@ use PhpSchool\PhpWorkshop\ExerciseDispatcher;
  * Class ArrayWeReduce
  * @package PhpSchool\CallableFunctions\Exercise
  */
-class ArrayWeReduce extends AbstractExercise implements ExerciseInterface, CliExercise, FunctionRequirementsExerciseCheck
+class ArrayWeReduce extends AbstractExercise implements
+    ExerciseInterface,
+    CliExercise,
+    FunctionRequirementsExerciseCheck
 {
     /**
      * @return string

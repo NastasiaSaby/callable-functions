@@ -15,7 +15,10 @@ use PhpSchool\PhpWorkshop\ExerciseDispatcher;
  * Class ArrayWeFilter
  * @package PhpSchool\CallableFunctions\Exercise
  */
-class ArrayWeFilter extends AbstractExercise implements ExerciseInterface, CliExercise, FunctionRequirementsExerciseCheck
+class ArrayWeFilter extends AbstractExercise implements
+    ExerciseInterface,
+    CliExercise,
+    FunctionRequirementsExerciseCheck
 {
     /**
      * @return string
