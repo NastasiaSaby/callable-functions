@@ -11,7 +11,7 @@ array_shift($argv);
 To execute a function (callable) for each element of an array, use array_walk as following :
 ```php
 $function = function($argument) {
-    echo "Argument is".$name;
+    echo "Argument is" . $argument;
 };
 
 $arguments = ["argument1", "argument2"];
