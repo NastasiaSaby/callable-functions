@@ -70,6 +70,6 @@ class PeaceWalk extends AbstractExercise implements ExerciseInterface, CliExerci
      */
     public function configure(ExerciseDispatcher $dispatcher)
     {
-        $dispatcher->requireCheck(FunctionRequirementsCheck::class, $dispatcher::CHECK_AFTER);
+        $dispatcher->requireCheck(FunctionRequirementsCheck::class);
     }
 }

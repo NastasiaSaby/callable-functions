@@ -27,7 +27,7 @@ use PhpSchool\CallableFunctions\Exercise\ArrayWeMap;
 use PhpSchool\CallableFunctions\Exercise\ArrayWeReduce;
 use PhpSchool\CallableFunctions\Exercise\ArrayWeFilter;
 
-$app = new Application(null, __DIR__ . '/config.php');
+$app = new Application('Callable Functions', __DIR__ . '/config.php');
 
 $app->addExercise(HelloWorld::class);
 $app->addExercise(HelloSomeone::class);
