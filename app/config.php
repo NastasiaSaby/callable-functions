@@ -8,6 +8,7 @@ use PhpSchool\CallableFunctions\Exercise\PeaceWalk;
 use PhpSchool\CallableFunctions\Exercise\ArrayWeMap;
 use PhpSchool\CallableFunctions\Exercise\ArrayWeReduce;
 use PhpSchool\CallableFunctions\Exercise\ArrayWeFilter;
+use PhpSchool\CallableFunctions\Exercise\SortYourArray;
 
 return [
     HelloWorld::class   => object(HelloWorld::class),
@@ -16,4 +17,5 @@ return [
     ArrayWeMap::class   => object(ArrayWeMap::class),
     ArrayWeReduce::class   => object(ArrayWeReduce::class),
     ArrayWeFilter::class   => object(ArrayWeFilter::class),
+    SortYourArray::class   => object(SortYourArray::class),
 ];

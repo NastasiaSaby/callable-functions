@@ -26,6 +26,7 @@ use PhpSchool\CallableFunctions\Exercise\PeaceWalk;
 use PhpSchool\CallableFunctions\Exercise\ArrayWeMap;
 use PhpSchool\CallableFunctions\Exercise\ArrayWeReduce;
 use PhpSchool\CallableFunctions\Exercise\ArrayWeFilter;
+use PhpSchool\CallableFunctions\Exercise\SortYourArray;
 
 $app = new Application('Callable Functions', __DIR__ . '/config.php');
 
@@ -35,6 +36,7 @@ $app->addExercise(PeaceWalk::class);
 $app->addExercise(ArrayWeMap::class);
 $app->addExercise(ArrayWeReduce::class);
 $app->addExercise(ArrayWeFilter::class);
+$app->addExercise(SortYourArray::class);
 
 $art = <<<ART
 
