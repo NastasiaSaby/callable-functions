@@ -18,7 +18,7 @@ class HelloSomeoneTest extends PHPUnit_Framework_TestCase
     {
         $e = new HelloSomeone();
         $this->assertEquals('Hello someone!', $e->getName());
-        $this->assertEquals('Hello world exercice with name', $e->getDescription());
+        $this->assertEquals('Hello world exercise with name', $e->getDescription());
         $this->assertEquals(ExerciseType::CLI, $e->getType());
 
         $this->assertEquals(['Sarra'], $e->getArgs());

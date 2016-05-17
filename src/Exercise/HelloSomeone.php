@@ -27,7 +27,7 @@ class HelloSomeone extends AbstractExercise implements ExerciseInterface, CliExe
      */
     public function getDescription()
     {
-        return 'Hello world exercice with name';
+        return 'Hello world exercise with name';
     }
 
     /**

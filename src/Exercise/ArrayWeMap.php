@@ -70,6 +70,6 @@ class ArrayWeMap extends AbstractExercise implements ExerciseInterface, CliExerc
      */
     public function configure(ExerciseDispatcher $dispatcher)
     {
-        $dispatcher->requireCheck(FunctionRequirementsCheck::class, $dispatcher::CHECK_AFTER);
+        $dispatcher->requireCheck(FunctionRequirementsCheck::class);
     }
 }

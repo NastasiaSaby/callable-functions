@@ -74,6 +74,6 @@ class ArrayWeReduce extends AbstractExercise implements
      */
     public function configure(ExerciseDispatcher $dispatcher)
     {
-        $dispatcher->requireCheck(FunctionRequirementsCheck::class, $dispatcher::CHECK_AFTER);
+        $dispatcher->requireCheck(FunctionRequirementsCheck::class);
     }
 }
