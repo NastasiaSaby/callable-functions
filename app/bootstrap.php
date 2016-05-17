@@ -45,7 +45,7 @@ $art = <<<ART
            |_| |_|
 
          PHP SCHOOL
-CALLABLE FUNCTIONS AND ARRAY
+CALLABLE FUNCTIONS AND ARRAYS
 ART;
 
 $app->setLogo($art);
