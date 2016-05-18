@@ -1,7 +1,10 @@
 {
     "name": "nastasia/callable-functions",
     "description": "Learn callable functions with arrays",
+    "keywords": ["cli", "console", "terminal", "phpschool", "php-school", "workshop", "learning", "education", "php"],
+    "homepage": "https://www.phpschool.io",
     "license": "MIT",
+    "type": "php-school-workshop",
     "authors": [
         {
             "name": "Nastasia Saby",
@@ -27,7 +30,20 @@
             "PhpSchool\\CallableFunctionsTest\\": "test"
         }
     },
-    "bin": [
-        "bin/callablefunctions"
-    ]
+    "bin": ["bin/callablefunctions"],
+    "extra" : {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "scripts" : {
+        "test": [
+            "phpunit",
+            "@cs"
+        ],
+        "cs" : [
+            "phpcs src --standard=PSR2",
+            "phpcs test --standard=PSR2"
+        ]
+    }
 }
