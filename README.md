@@ -25,8 +25,8 @@ A PHP School workshop about callable functions with arrays.
 ## Installation
 
 1. Install [PHP](http://php.net/downloads.php)
-2. Install [Composer](https://getcomposer.org/download/)
-3. Run `composer global require nastasia/callable-functions`
+2. Install [workshop-manager](https://www.phpschool.io/)
+3. Run `workshop-manager install callablefunctions`
 4. Run `callablefunctions`
 
 **callablefunctions** will run through a series of PHP workshops. Starting at a basic "Hello World" and moving on to more advanced exercises about dealing with arrays and callable functions.
